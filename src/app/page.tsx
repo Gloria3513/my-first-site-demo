@@ -55,6 +55,10 @@ export default function Home() {
             <p className="text-blue-900/60 text-[11px] sm:mt-0.5">유틸리티 스타일</p>
           </div>
         </div>
+
+        <p className="text-sm font-semibold mt-6" style={{ color: "#C84726" }}>
+          오늘 처음 인터넷에 사이트를 올렸어요!
+        </p>
       </div>
     </main>
   );
