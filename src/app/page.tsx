@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -60,6 +61,17 @@ export default function Home() {
           오늘 처음 인터넷에 사이트를 올렸어요!
         </p>
       </div>
+
+      {/* 하단 푸터 안내 */}
+      <footer className="mt-8 text-center text-xs text-blue-950/60 leading-relaxed">
+        이 사이트는 방문 통계를 보려고 구글 애널리틱스를 써요 ·{" "}
+        <Link
+          href="/privacy"
+          className="underline underline-offset-2 hover:text-teal-700 transition-colors"
+        >
+          개인정보처리방침
+        </Link>
+      </footer>
     </main>
   );
 }

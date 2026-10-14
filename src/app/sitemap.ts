@@ -6,5 +6,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://garam-attendance.vercel.app",
       lastModified: new Date(),
     },
+    {
+      url: "https://garam-attendance.vercel.app/privacy",
+      lastModified: new Date(),
+    },
   ];
 }
