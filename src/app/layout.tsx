@@ -13,8 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My First Site",
-  description: "Next.js + TypeScript + Tailwind CSS",
+  metadataBase: new URL("https://garam-attendance.vercel.app"),
+  title: "가람 출석체크",
+  description: "출석을 손으로 세느라 매주 30분이 걸리는 강사를 돕습니다",
+  openGraph: {
+    title: "가람 출석체크",
+    description: "출석을 손으로 세느라 매주 30분이 걸리는 강사를 돕습니다",
+    url: "https://garam-attendance.vercel.app",
+    siteName: "가람 출석체크",
+    images: ["/my-photo.jpg"],
+    type: "website",
+  },
   verification: {
     google: "fxetYoT7Yt1HSrLoCZRp7sTJAEUQKdZhAqhVAw-KG7s",
     other: {
