@@ -10,8 +10,8 @@ export default function Home() {
         </div>
         
         {/* 메인 제목 */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-teal-700 leading-snug break-keep mb-7 sm:mb-9">
-          안녕하세요, 김가람입니다
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-blue-950 leading-snug break-keep mb-7 sm:mb-9">
+          안녕하세요, <span className="text-teal-600">김가람</span>입니다
         </h1>
 
         {/* 프로필 사진 (제목과 사진 사이, 사진과 소개 문장 사이 넉넉한 간격) */}
